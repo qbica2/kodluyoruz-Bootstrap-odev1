@@ -49,6 +49,7 @@ body {
 }
 /* MERHABA için */
 .h2 {
+    font-size: 40px;
     text-align: center;
     color: red;
 }
@@ -57,7 +58,7 @@ body {
 .thkpm {
     display: block;
     font-size: 16px;
-    color: rgba(31, 6, 24, 0.808);
+    color: rgba(49, 145, 81, 0.808);
     text-decoration: none;
     float: left;
     margin-top: 8px;
@@ -75,9 +76,18 @@ body {
 /* Kaynaklar için */
 .kaynaklar {
  position: absolute;
- bottom: 30px;
+ bottom: -170px;
 }
 .gorsel {
     position: absolute;
-    bottom: 0px;
+    bottom: -200px;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tus {
+    width: 190px;
+}
+
