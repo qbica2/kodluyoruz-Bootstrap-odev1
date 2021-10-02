@@ -1,0 +1,80 @@
+/************ üst nav bar ***********/
+.block {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+/* F1 Store */
+.f1 {
+    display: block;
+    font-size: 30px;
+    color: red;
+    text-decoration: none;
+    float: left;
+    margin-left: 20px;
+}
+/* Anasayfa */
+.ana {
+    display: block;
+    font-size: 20px;
+    color: grey;
+    text-decoration: none;
+    float: left;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+/* ürünlerimiz */
+.urun {
+    display: block;
+    font-size: 20px;
+    color: grey ;
+    text-decoration: none;
+    float: left;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+/* Hakkımızda */
+.hak {
+    display: block;
+    font-size: 20px;
+    color: grey ;
+    text-decoration: none;
+    float: left;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+/* MERHABA için */
+.h2 {
+    text-align: center;
+    color: red;
+}
+/************ ürünlerimiz nav bar ************/
+/* t-shirt /Hoodie/Kupa/Poster/Model araçlar */
+.thkpm {
+    display: block;
+    font-size: 16px;
+    color: rgba(31, 6, 24, 0.808);
+    text-decoration: none;
+    float: left;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+/* ürün tanıtım yazısı */
+.tanitim {
+    color: seagreen;
+}
+/* ürün fiyat yazısı */
+.fiyat {
+    color: white;
+    background-color:black;
+}
+/* Kaynaklar için */
+.kaynaklar {
+ position: absolute;
+ bottom: 30px;
+}
+.gorsel {
+    position: absolute;
+    bottom: 0px;
+}
