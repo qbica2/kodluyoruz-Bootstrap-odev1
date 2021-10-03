@@ -13,14 +13,35 @@
   </head>
   <body>
           <!-- üst nav bar -->
-          <div class="block bg-dark">
-            <div >
-                <a class="f1" href="index.html">F1 Store</a>
-                <a class="ana" href="index.html">Ana Sayfa</a>
-                <a class="urun" href="stok.html">Ürünlerimiz</a>
-                <a class="hak" href="hakkımızda.html">Hakkımızda</a>
+          <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">F1 Store</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse" id="navbarsExample03">
+                <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Ana Sayfa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="hakkımızda.html">Hakkımızda</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false">Ürünlerimiz</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                      <li><a class="dropdown-item" href="stok.html#t-shirt">T-Shirt</a></li>
+                      <li><a class="dropdown-item" href="stok.html#hoodie">Hoodie</a></li>
+                      <li><a class="dropdown-item" href="stok.html#kupa">Kupa</a></li>
+                      <li><a class="dropdown-item" href="stok.html#poster">Poster</a></li>
+                      <li><a class="dropdown-item" href="stok.html#model">Model Araçlar</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </div>
+          </nav>
         <div>
             <h2 class="h2">Hakkımızda</h2>
             <p>F1 Store 2021 yılında M.Kubilay Akdemir tarafından kurulmuştur.Sitemizin kuruluş amacı çeşitli F1 ürünlerini siz değerli müşterilerimize uygun fiyat ve yüksek kalite ilkesiyle buluşturmaktır.</p>
@@ -28,6 +49,17 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem atque corrupti provident dicta vel, enim necessitatibus, earum est quod veritatis eos magni soluta alias quam voluptatum dolorum, itaque mollitia? Vel.enim necessitatibus, earum est quod veritatis eos magni soluta alias quam voluptatum dolorum, itaque mollitia? Vel.enim necessitatibus, earum est quod veritatis eos magni soluta alias quam voluptatum dolorum, itaque mollitia? Vel.</p>
             <h4>Misyonumuz</h4>
             <p>Lorem ipsum, dolor sit amet enim necessitatibus, earum est quod veritatis eos magni soluta alias quam voluptatum dolorum, itaque mollitia? Vel.enim necessitatibus, earum est quod veritatis eos magni soluta alias quam voluptatum dolorum, itaque mollitia? Vel.enim necessitatibus, earum est quod veritatis eos magni soluta alias quam voluptatum dolorum, itaque mollitia? Vel. consectetur adipisicing elit. Quisquam, dicta! Voluptates porro excepturi eligendi officia minus? Iste, consectetur soluta eius a adipisci quos illum quo, veritatis sequi ut molestiae maxime.</p>
+        </div>
+        <div class="container">
+          <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Ana Sayfa</a></li>
+              <li class="nav-item"><a href="stok.html" class="nav-link px-2 text-muted">Ürünlerimiz</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">İletişim</a></li>
+              <li class="nav-item"><a href="hakkımızda.html" class="nav-link px-2 text-muted">Hakkımızda</a></li>
+            </ul>
+            <p class="text-center text-muted">© 2021 F1 Store, Inc</p>
+          </footer>
         </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
